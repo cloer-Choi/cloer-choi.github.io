@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    outline-style: none;
+    appearance: none;
+  }
+  input:focus {
+    outline: none;
+  }
+}
+
+@layer components {
+  .bet-table {
+    @apply text-xs md:text-base border-collapse font-medium md:font-semibold;
+  }
+  .bet-table tr {
+    @apply divide-x-2;
+  }
+
+  .bet-table td,
+  .bet-table th {
+    @apply py-1 px-2 text-center border-b-2 border-slate-300;
+  }
+}
