@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 
 function CenterLayout() {
   return (
-    <main className='h-screen flex justify-center items-center'>
+    <main className='h-full w-full flex justify-center items-center'>
       <Outlet />
     </main>
   );

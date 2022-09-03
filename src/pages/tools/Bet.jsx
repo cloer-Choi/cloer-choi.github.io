@@ -1,5 +1,5 @@
 import { useRef, useReducer } from 'react';
-import reducer, { ACTION_TYPE } from '../../lib/games/Bet/reducer';
+import reducer, { ACTION_TYPE } from '../../lib/tools/bet/reducer';
 
 const Distribution = () => {
   const memberInputRef = useRef(null);

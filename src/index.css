@@ -13,6 +13,9 @@
 }
 
 @layer components {
+  .nav-button {
+    @apply px-2 py-1 rounded-md bg-blue-400 shadow-md;
+  }
   .bet-table {
     @apply text-xs md:text-base border-collapse font-medium md:font-semibold;
   }
