@@ -8,10 +8,7 @@ const Header = () => {
           <Link to='/'>Playground</Link>
         </div>
         <nav className='flex gap-4 items-center'>
-          <Link to='/games' className='nav-button'>
-            Games
-          </Link>
-          <Link to='/tools' className='nav-button'>
+          <Link to='/' className='nav-button'>
             Tools
           </Link>
         </nav>

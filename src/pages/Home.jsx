@@ -1,15 +1,11 @@
 import BoardBox from '../components/common/BoardBox';
 import ListBox from '../components/ListBox';
-import { GAME_LIST, TOOL_LIST } from '../lib/paths';
+import { TOOL_LIST } from '../lib/paths';
 
 const Home = () => {
   return (
     <main className='h-full flex justify-center items-center'>
       <BoardBox>
-        <section>
-          <h1 className='text-xl font-medium'>Games</h1>
-          <ListBox list={GAME_LIST} />
-        </section>
         <section>
           <h1 className='text-xl font-medium'>Tools</h1>
           <ListBox list={TOOL_LIST} />

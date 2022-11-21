@@ -1,5 +1,5 @@
 import { useRef, useReducer } from 'react';
-import reducer, { ACTION_TYPE } from '../../lib/tools/bet/reducer';
+import reducer, { ACTION_TYPE } from '../lib/bet/reducer';
 
 const Distribution = () => {
   const memberInputRef = useRef(null);
@@ -81,7 +81,6 @@ const Distribution = () => {
           </tbody>
         </table>
       </section>
-      {/* <section>{JSON.stringify(state)}</section> */}
     </div>
   );
 };
